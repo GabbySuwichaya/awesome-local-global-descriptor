@@ -118,6 +118,13 @@ After the matching, standard RANSAC and it's variants are usually adopted for ou
 | [ICCV19] | Learning Two-View Correspondences and Geometry Using Order-Aware Network (OANet) | [arXiv](https://arxiv.org/abs/1908.04964) |[Github](https://github.com/zjhthu/OANet)|
 | [CVPR18] | Learning to Find Good Correspondences |  -  |  [Github](https://github.com/vcg-uvic/learned-correspondence-release) |
 
+
++ Stereo matching
+
+| Year | Paper | link | Code |
+| --- | --- | --- | --- |
+| [CVPR2020] | AANet: Adaptive Aggregation Network for Efficient Stereo Matching | [Paper](https://arxiv.org/pdf/2004.09548.pdf) | [Github](https://github.com/haofeixu/aanet) | 
+
 + Image registration
 
 | Year | Paper | link | Code |
@@ -125,10 +132,17 @@ After the matching, standard RANSAC and it's variants are usually adopted for ou
 |[Access18]|Multi-Temporal Remote Sensing Image Registration Using Deep Convolutional Features|[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8404075)|[Github](https://github.com/yzhq97/cnn-registration)|
 
 
++ Supporting the matching
+
+| Year | Paper | link | Code |
+| --- | --- | --- | --- |
+|[WACV2021]|3D Correspondence Grouping with Compatibility Features|[PDF](https://arxiv.org/pdf/2007.10570.pdf)| - |
+
+
 # Global retrieval
 
 Consider global retrieval usually targets on a lot of candidates, there are several way to generate one single description for one image.
-
+ 
 #### 1. Feature aggregation
 
 + Hand-crafted
@@ -148,6 +162,7 @@ Similar idea but use deep learning to adapt classical algorithm
 
 | Year | Paper | link | Code |
 | --- | --- | --- | --- |
+|[ECCV'20]|Learning and aggregating deep local descriptors for instance-level recognition | [arxiv](https://arxiv.org/abs/2007.13172) | [Github](https://github.com/jenicek/asmk) |
 |[ECCV16]|CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples. |[PDF](http://cmp.felk.cvut.cz/~chum/papers/Radenovic-ECCV16.pdf)|-|
 |[CVPR16]|NetVLAD: CNN architecture for weakly supervised place recognition|[Page](https://www.di.ens.fr/willow/research/netvlad/)|[Github](https://github.com/Relja/netvlad)|
 
@@ -160,7 +175,6 @@ One single representation from the image.
 
 | Year | Paper | link | Code |
 | --- | --- | --- | --- |
-|[ECCV'20]|Learning and aggregating deep local descriptors for instance-level recognition | [arxiv](https://arxiv.org/abs/2007.13172) | [Github](https://github.com/jenicek/asmk) |
 |[arXiv20]|Unifying Deep Local and Global Features for Efficient Image Search|[arXiv](https://arxiv.org/abs/2001.05027)|-|
 |[arXiv19]|ACTNET: end-to-end learning of feature activations and multi-stream aggregation for effective instance image retrieval|[arXiv](https://arxiv.org/abs/1907.05794?fbclid=IwAR1R6HbcmocY_Goso5K8W8rhjmtNIxyGw2tUXObw12JR3QIbjEAVQGXZL8Q)|-|
 |[TIP19]|REMAP: Multi-layer entropy-guided pooling of dense CNN features for image retrieval|[arXiv](https://arxiv.org/abs/1906.06626)|-|
