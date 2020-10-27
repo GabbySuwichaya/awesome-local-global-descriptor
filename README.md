@@ -92,8 +92,7 @@ Recently, more and more papers try to embed the whole matching pipeline (keypoin
 | [NIPS18] | LF-Net: Learning Local Features from Images |[PDF](https://papers.nips.cc/paper/7861-lf-net-learning-local-features-from-images.pdf)|[Github](https://github.com/vcg-uvic/lf-net-release)|
 | [ECCV16] | LIFT: Learned Invariant Feature Points |-|[Github](https://github.com/cvlab-epfl/LIFT)|
 
-#### 3.2 End-to-end matching pipeline
-
+ 
 
 #### 4. Geometric verification or learning based matcher
 After the matching, standard RANSAC and it's variants are usually adopted for outlier removal.
@@ -136,6 +135,8 @@ After the matching, standard RANSAC and it's variants are usually adopted for ou
 
 | Year | Paper | link | Code |
 | --- | --- | --- | --- |
+
+|[ECCV 2020]| Single-Image Depth Prediction Makes Feature Matching Easier| [PDF](https://arxiv.org/pdf/2008.09497.pdf) | [Github](https://github.com/nianticlabs/rectified-features) |
 |[WACV2021]|3D Correspondence Grouping with Compatibility Features|[PDF](https://arxiv.org/pdf/2007.10570.pdf)| - |
 
 
