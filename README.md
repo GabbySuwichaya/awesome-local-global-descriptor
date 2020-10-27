@@ -1,23 +1,12 @@
 # awesome-local-global-descriptor
+***This repo will be constantly updated.***
+This repo is forked from https://github.com/shamangary/awesome-local-global-descriptor that is written by  
+
+> ***Author: Tsun-Yi Yang (shamangary@hotmail.com)***
 This is my personal note about local and global descriptor. Trying to make anyone can get in to these fields more easily.
 If you find anything you want to add, feel free to post on issue or email me.
 
-<img src="https://github.com/shamangary/awesome-local-global-descriptor/blob/master/ur2kid_summary.png" height="540"/>
-
-This repo is also a side product when I was doing the survey of our paper UR2KID. If you find this repo useful, please also consider to cite our paper.
-```
-@article{yang2020ur2kid,
-  title={UR2KiD: Unifying Retrieval, Keypoint Detection, and Keypoint Description without Local Correspondence Supervision},
-  author={Yang*, Tsun-Yi; Nguyen*, Duy-Kien; Heijnen, Huub; Balntas, Vassileios},
-  journal={arXiv preprint arXiv:2001.07252},
-  year={2020}
-}
-```
-
-***This repo will be constantly updated.***
-
-***Author: Tsun-Yi Yang (shamangary@hotmail.com)***
-
+Here, I have modifed the original repo for my own personal use. If there any questions, please feel free to leave some messages. 
 
 # Local matching pipeline
 
@@ -88,8 +77,8 @@ In the last few decades, people focus on the patch descriptor
 |[arXiv19]|DEEPPOINT3D: LEARNING DISCRIMINATIVE LOCAL DESCRIPTORS USING DEEP METRIC LEARNING ON 3D POINT CLOUDS|[arXiv](https://arxiv.org/abs/1904.00817)|-|
 
 
-
-#### 3. End-to-end matching pipeline
+#### 3. Feature extraction pipeline
+#### 3.1 End-to-end feature extraction pipeline
 Recently, more and more papers try to embed the whole matching pipeline (keypoint detection, keypoint description) into one framework. 
 
 | Year | Paper | link | Code |
@@ -103,13 +92,18 @@ Recently, more and more papers try to embed the whole matching pipeline (keypoin
 | [NIPS18] | LF-Net: Learning Local Features from Images |[PDF](https://papers.nips.cc/paper/7861-lf-net-learning-local-features-from-images.pdf)|[Github](https://github.com/vcg-uvic/lf-net-release)|
 | [ECCV16] | LIFT: Learned Invariant Feature Points |-|[Github](https://github.com/cvlab-epfl/LIFT)|
 
+#### 3.2 End-to-end matching pipeline
+
+
 #### 4. Geometric verification or learning based matcher
 After the matching, standard RANSAC and it's variants are usually adopted for outlier removal.
 
 + Algorithm based
 
 | Year | Paper | link | Code |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | 
+| [Arxiv2020] | AdaLAM: Revisiting Handcrafted Outlier Detection |[PDF](https://arxiv.org/pdf/2006.04250.pdf) | [Github](https://github.com/cavalli1234/AdaLAM) |
+| [ECCV20] | Multi-View Optimization of Local Feature Geometry |[PDF](https://arxiv.org/abs/2003.08348) |[Github](https://github.com/mihaidusmanu/local-feature-refinement) | 
 | [CVPR19] |  MAGSAC: Marginalizing Sample Consensus  | [PDF](http://openaccess.thecvf.com/content_CVPR_2019/papers/Barath_MAGSAC_Marginalizing_Sample_Consensus_CVPR_2019_paper.pdf)  | [Github](https://github.com/danini/magsac)  |
 |[ECCV12]| Improving Image-Based Localization by Active Correspondence Search| [PDF](https://www.graphics.rwth-aachen.de/media/papers/sattler_eccv12_preprint_1.pdf)| - |
 | [CVPR05] | Matching with PROSAC – Progressive Sample Consensus |[PDF](https://dspace.cvut.cz/bitstream/handle/10467/9496/2005-Matching-with-PROSAC-progressive-sample-consensus.pdf;jsessionid=F52133C01BA4F1B36C718896C0F335A1?sequence=1) |- |
@@ -119,9 +113,9 @@ After the matching, standard RANSAC and it's variants are usually adopted for ou
 
 | Year | Paper | link | Code |
 | --- | --- | --- | --- |
-| [arXiv19] | SuperGlue: Learning Feature Matching with Graph Neural Networks |[arXiv](https://arxiv.org/abs/1911.11763)|-|
+| [CVPR2020] | SuperGlue: Learning Feature Matching with Graph Neural Networks |[arXiv](https://arxiv.org/abs/1911.11763)|[Official Github](https://github.com/magicleap/SuperGluePretrainedNetwork) [Trainingscript with License](https://github.com/HeatherJiaZG/SuperGlue-pytorch)|
 |[ICCV19]|NG-RANSAC for Epipolar Geometry from Sparse Correspondences|[arXiv](https://arxiv.org/abs/1905.04132)|[Github](https://github.com/vislearn/ngransac)|
-| [ICCV19] | Learning Two-View Correspondences and Geometry Using Order-Aware Network | [arXiv](https://arxiv.org/abs/1908.04964) |[Github](https://github.com/zjhthu/OANet)|
+| [ICCV19] | Learning Two-View Correspondences and Geometry Using Order-Aware Network (OANet) | [arXiv](https://arxiv.org/abs/1908.04964) |[Github](https://github.com/zjhthu/OANet)|
 | [CVPR18] | Learning to Find Good Correspondences |  -  |  [Github](https://github.com/vcg-uvic/learned-correspondence-release) |
 
 + Image registration
@@ -237,3 +231,17 @@ Some works try to cover both local descriptor and global retrieval due to the sh
 | --- | --- | --- | --- | --- |
 | [CVPR18]|Benchmarking 6DOF Outdoor Visual Localization in Changing Conditions|[PDF](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sattler_Benchmarking_6DOF_Outdoor_CVPR_2018_paper.pdf),[Page](https://www.visuallocalization.net/)| [Github](https://github.com/tsattler/visuallocalizationbenchmark)|Aachen-day-night, Robotcar, CMU-seasons|
 
+
+#### Awsome UR2KiD Summary
+
+<img src="https://github.com/shamangary/awesome-local-global-descriptor/blob/master/ur2kid_summary.png" height="540"/>
+
+This repo is also a side product when I was doing the survey of our paper UR2KID. If you find this repo useful, please also consider to cite our paper.
+```
+@article{yang2020ur2kid,
+  title={UR2KiD: Unifying Retrieval, Keypoint Detection, and Keypoint Description without Local Correspondence Supervision},
+  author={Yang*, Tsun-Yi; Nguyen*, Duy-Kien; Heijnen, Huub; Balntas, Vassileios},
+  journal={arXiv preprint arXiv:2001.07252},
+  year={2020}
+}
+```
