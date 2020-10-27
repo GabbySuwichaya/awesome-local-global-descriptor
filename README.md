@@ -101,7 +101,7 @@ After the matching, standard RANSAC and it's variants are usually adopted for ou
 
 | Year | Paper | link | Code |
 | --- | --- | --- | --- | 
-| [Arxiv2020] | AdaLAM: Revisiting Handcrafted Outlier Detection |[PDF](https://arxiv.org/pdf/2006.04250.pdf) | [Github](https://github.com/cavalli1234/AdaLAM) |
+| [Arxiv2020] | AdaLAM: Revisiting Handcrafted Outlier Detection** |[PDF](https://arxiv.org/pdf/2006.04250.pdf) | [Github](https://github.com/cavalli1234/AdaLAM) |
 | [ECCV20] | Multi-View Optimization of Local Feature Geometry |[PDF](https://arxiv.org/abs/2003.08348) |[Github](https://github.com/mihaidusmanu/local-feature-refinement) | 
 | [CVPR19] |  MAGSAC: Marginalizing Sample Consensus  | [PDF](http://openaccess.thecvf.com/content_CVPR_2019/papers/Barath_MAGSAC_Marginalizing_Sample_Consensus_CVPR_2019_paper.pdf)  | [Github](https://github.com/danini/magsac)  |
 |[ECCV12]| Improving Image-Based Localization by Active Correspondence Search| [PDF](https://www.graphics.rwth-aachen.de/media/papers/sattler_eccv12_preprint_1.pdf)| - |
@@ -122,7 +122,7 @@ After the matching, standard RANSAC and it's variants are usually adopted for ou
 
 | Year | Paper | link | Code |
 | --- | --- | --- | --- |
-| [CVPR2020] | AANet: Adaptive Aggregation Network for Efficient Stereo Matching | [Paper](https://arxiv.org/pdf/2004.09548.pdf) | [Github](https://github.com/haofeixu/aanet) | 
+| [CVPR2020] | AANet: Adaptive Aggregation Network for Efficient Stereo Matching**| [Paper](https://arxiv.org/pdf/2004.09548.pdf) | [Github](https://github.com/haofeixu/aanet) | 
 
 + Image registration
 
@@ -135,9 +135,8 @@ After the matching, standard RANSAC and it's variants are usually adopted for ou
 
 | Year | Paper | link | Code |
 | --- | --- | --- | --- |
-
-|[ECCV 2020]| Single-Image Depth Prediction Makes Feature Matching Easier| [PDF](https://arxiv.org/pdf/2008.09497.pdf) | [Github](https://github.com/nianticlabs/rectified-features) |
-|[WACV2021]|3D Correspondence Grouping with Compatibility Features|[PDF](https://arxiv.org/pdf/2007.10570.pdf)| - |
+|[ECCV 2020]| Single-Image Depth Prediction Makes Feature Matching Easier**| [PDF](https://arxiv.org/pdf/2008.09497.pdf) | [Github](https://github.com/nianticlabs/rectified-features) | 
+|[WACV2021]|3D Correspondence Grouping with Compatibility Features**|[PDF](https://arxiv.org/pdf/2007.10570.pdf)| - |
 
 
 # Global retrieval
@@ -163,7 +162,7 @@ Similar idea but use deep learning to adapt classical algorithm
 
 | Year | Paper | link | Code |
 | --- | --- | --- | --- |
-|[ECCV'20]|Learning and aggregating deep local descriptors for instance-level recognition | [arxiv](https://arxiv.org/abs/2007.13172) | [Github](https://github.com/jenicek/asmk) |
+|[ECCV'20]|Learning and aggregating deep local descriptors for instance-level recognition** | [arxiv](https://arxiv.org/abs/2007.13172) | [Github](https://github.com/jenicek/asmk) |
 |[ECCV16]|CNN Image Retrieval Learns from BoW: Unsupervised Fine-Tuning with Hard Examples. |[PDF](http://cmp.felk.cvut.cz/~chum/papers/Radenovic-ECCV16.pdf)|-|
 |[CVPR16]|NetVLAD: CNN architecture for weakly supervised place recognition|[Page](https://www.di.ens.fr/willow/research/netvlad/)|[Github](https://github.com/Relja/netvlad)|
 
@@ -179,7 +178,7 @@ One single representation from the image.
 |[arXiv20]|Unifying Deep Local and Global Features for Efficient Image Search|[arXiv](https://arxiv.org/abs/2001.05027)|-|
 |[arXiv19]|ACTNET: end-to-end learning of feature activations and multi-stream aggregation for effective instance image retrieval|[arXiv](https://arxiv.org/abs/1907.05794?fbclid=IwAR1R6HbcmocY_Goso5K8W8rhjmtNIxyGw2tUXObw12JR3QIbjEAVQGXZL8Q)|-|
 |[TIP19]|REMAP: Multi-layer entropy-guided pooling of dense CNN features for image retrieval|[arXiv](https://arxiv.org/abs/1906.06626)|-|
-|[ICCV19]|Learning with Average Precision: Training Image Retrieval with a Listwise Loss |[arXiv](https://arxiv.org/abs/1906.07589)|[Github](https://github.com/almazan/deep-image-retrieval)|
+|[ICCV19]|Learning with Average Precision: Training Image Retrieval with a Listwise Loss** |[arXiv](https://arxiv.org/abs/1906.07589)|[Github](https://github.com/almazan/deep-image-retrieval)|
 | [CVPR19] | Detect-to-Retrieve: Efficient Regional Aggregation for Image Search | [PDF](http://openaccess.thecvf.com/content_CVPR_2019/papers/Teichmann_Detect-To-Retrieve_Efficient_Regional_Aggregation_for_Image_Search_CVPR_2019_paper.pdf) |[Github](https://github.com/tensorflow/models/tree/master/research/delf)|
 | [TPAMI18] |   Fine-tuning CNN Image Retrieval with No Human Annotation |[arXiv](https://arxiv.org/abs/1711.02512)  |  [Github](https://github.com/filipradenovic/cnnimageretrieval-pytorch)  |
 |[IJCV17]| End-to-end Learning of Deep Visual Representations for Image Retrieval |[arXiv](https://arxiv.org/abs/1610.07940)|[Github](https://github.com/almazan/deep-image-retrieval)|
